@@ -9,6 +9,7 @@ To set up the project, follow these steps. It is assumed python is already insta
 1. **Clone repository**
     ```bash
     git clone https://github.com/raglem/FarmStore-Automation.git
+    cd FarmStore-Automation
     ```
 
 2. **Create a Virtual Environment**
@@ -37,10 +38,11 @@ After setting up the environment and installing the dependencies, you can run th
 You can ignore instructions to migrate. 
 
 ```bash
+    cd farmstore_automation
     python manage.py runserver
 ```
 
-Open another terminal window and execute the following command. This calls the api route to run the automated order and return the total price. 
+Open another terminal window and execute the following command. This calls the API route to run the automated order and return the total price. This may take a few moments
 
 ```bash
     curl http://127.0.0.1:8000/
