@@ -8,7 +8,7 @@ To set up the project, follow these steps. It is assumed python is already insta
 
 1. **Clone repository**
     ```bash
-    git clone
+    git clone https://github.com/raglem/FarmStore-Automation.git
     ```
 
 2. **Create a Virtual Environment**
